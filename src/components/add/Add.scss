@@ -33,6 +33,11 @@
       background-color: rgb(245, 245, 250);
       border: none;
       outline: none;
+      font-family: Mulish;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: 10.08px;
+      color: #212121;
       margin: 20px 0 0 45px;
       border-radius: 8px;
       cursor: pointer;
@@ -57,6 +62,12 @@
       .label {
         margin-left: 45px;
         margin-top: 20px;
+        font-family: Mulish;
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 10.08px;
+        text-align: left;
+        color: #212121;
       }
 
       .add_form_item:nth-child(1) {
@@ -142,9 +153,19 @@
   button:nth-child(1) {
     background-color: rgb(27, 196, 140);
     color: white;
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 10.08px;
+    text-align: center;
   }
   button:nth-child(2) {
     background-color: rgb(247, 247, 255);
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 10.08px;
+    text-align: center;
   }
 }
 
