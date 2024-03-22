@@ -70,9 +70,15 @@ main {
       height: 70px;
       align-items: center;
       border-bottom: 3px solid rgb(245, 245, 245);
-      padding-left: 50px;
-
-      opacity: 0.5;
+      padding-left: 40px;
+      & p {
+        font-family: Mulish;
+        font-size: 16px;
+        font-weight: 800;
+        line-height: 9.36px;
+        text-align: left;
+        color: #b5b5c3;
+      }
       p:nth-child(2) {
         padding-left: 100px;
       }
