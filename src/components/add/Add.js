@@ -39,6 +39,7 @@ const Add = () => {
                 <div className="add_form_item">
                   <label className="label">Название</label>
                   <input
+                    required
                     type="text"
                     name="title"
                     onChange={hendelChange}
@@ -48,6 +49,7 @@ const Add = () => {
                 <div className="add_form_item">
                   <label className="label">Бренд </label>
                   <input
+                    required
                     type="text"
                     name="brand"
                     onChange={hendelChange}
@@ -57,6 +59,7 @@ const Add = () => {
                 <div className="add_form_item">
                   <label className="label">Артикул производителя </label>
                   <input
+                    required
                     type="text"
                     name="discountPercentage"
                     onChange={hendelChange}
@@ -68,6 +71,7 @@ const Add = () => {
               <div className="add_form_item1">
                 <label className="label">Описание </label>
                 <textarea
+                  required
                   name="description"
                   onChange={hendelChange}
                   value={product.description}
@@ -77,6 +81,7 @@ const Add = () => {
                 <div className="add_form_item2">
                   <label className="label">Цена</label>
                   <input
+                    required
                     type="text"
                     name="price"
                     onChange={hendelChange}
@@ -86,6 +91,7 @@ const Add = () => {
                 <div className="add_form_item3">
                   <label className="label">Цена со скидкой</label>
                   <input
+                    required
                     type="text"
                     name="stock"
                     onChange={hendelChange}
@@ -96,7 +102,7 @@ const Add = () => {
             </div>
           </div>
           <div className="save">
-            <button onClick={save}>Сохранить</button>
+            <button type="submit" onClick={save}>Сохранить</button>
             <button onClick={closeBtn}>Отмена</button>
           </div>
         </div>
